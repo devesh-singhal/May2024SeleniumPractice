@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Practice Suite" verbose="5" >
+	
+  <test name="Google Test" >
+    <classes>
+       <class name="UITest.GoogleTest" />
+    </classes>
+  </test>
+
+
+  <test name="Login Test NaveenSite" >
+    <classes>
+       <class name="UITest.LoginTest" />
+    </classes>
+  </test>
+  
+  
+
+  <test name="OrangeHRM Test">
+    <classes>
+      <class name="UITest.OrangeHRMTest"/>
+      
+    </classes>
+  </test>
+  
+  
+</suite>
